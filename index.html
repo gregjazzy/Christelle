@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christelle - Professeur de Français</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Christelle</h1>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#methodologie">Méthodologie</a></li>
+                <li><a href="#testimonials">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Hero avec effet Parallaxe -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title simple-glow">L'Art de la Langue Française</h1>
+            <p class="hero-subtitle">Professeur de français expérimentée</p>
+            <p class="hero-description">Découvrez la beauté de la langue française avec une approche personnalisée et rigoureuse</p>
+            <a href="#contact" class="cta-button">Réserver un cours</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>À propos de moi</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-layout">
+                    <div class="about-image">
+                        <img src="images/moi.jpeg" alt="Christelle - Professeur de Français" class="profile-image">
+                    </div>
+                    <div class="about-text">
+                        <h3>Passion, Excellence et Pédagogie</h3>
+                        <p>Diplômée en lettres modernes et forte d'une expérience de plus de 15 ans dans l'enseignement, je vous accompagne dans votre apprentissage de la langue française avec rigueur et bienveillance.</p>
+                        <p>Ma mission est de vous transmettre non seulement les règles grammaticales et la richesse du vocabulaire français, mais aussi l'amour de cette langue magnifique qui fait partie intégrante de notre patrimoine culturel.</p>
+                        
+                        <div class="prestations-signature-container">
+                            <div class="prestations-link">
+                                <a href="prestations.html" class="prestations-button">
+                                    <i class="fas fa-arrow-right"></i>
+                                    En savoir plus sur mes prestations
+                                </a>
+                            </div>
+                            
+                            <div class="signature-container">
+                                <canvas id="stars-canvas" class="stars-canvas"></canvas>
+                                <video class="signature-animation" muted playsinline>
+                                    <source src="images/signature_transparente.webm" type="video/webm">
+                                    <source src="images/signature_transparente.mov" type="video/mp4">
+                                    <img src="images/signature_doree.gif" alt="Signature manuscrite dorée Christelle" class="signature-fallback">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualities">
+                    <div class="quality">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Expertise Académique</h4>
+                        <p>Formation universitaire en lettres modernes</p>
+                    </div>
+                    <div class="quality">
+                        <i class="fas fa-heart"></i>
+                        <h4>Passion Authentique</h4>
+                        <p>Amour profond de la langue française</p>
+                    </div>
+                    <div class="quality">
+                        <i class="fas fa-medal"></i>
+                        <h4>Excellence Pédagogique</h4>
+                        <p>Méthodes éprouvées et personnalisées</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mes Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Cours Particuliers</h3>
+                    <p>Accompagnement personnalisé pour tous niveaux, du primaire aux études supérieures.</p>
+                    <ul>
+                        <li>Soutien scolaire</li>
+                        <li>Préparation aux examens</li>
+                        <li>Perfectionnement linguistique</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Ateliers d'Écriture</h3>
+                    <p>Développez votre style et votre créativité littéraire dans un cadre inspirant.</p>
+                    <ul>
+                        <li>Techniques narratives</li>
+                        <li>Enrichissement du style</li>
+                        <li>Correction et révision</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Français Langue Étrangère</h3>
+                    <p>Apprentissage du français pour les non-francophones avec une approche culturelle.</p>
+                    <ul>
+                        <li>Méthode communicative</li>
+                        <li>Immersion culturelle</li>
+                        <li>Préparation DELF/DALF</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Méthodologie -->
+    <section id="methodologie" class="methodology">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ma Méthodologie</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="methodology-content">
+                <div class="method-item">
+                    <div class="method-number">01</div>
+                    <div class="method-content">
+                        <h3>Évaluation Personnalisée</h3>
+                        <p>Diagnostic précis de votre niveau et de vos objectifs pour adapter parfaitement l'enseignement.</p>
+                    </div>
+                </div>
+                <div class="method-item">
+                    <div class="method-number">02</div>
+                    <div class="method-content">
+                        <h3>Approche Traditionnelle</h3>
+                        <p>Respect des fondamentaux grammaticaux et littéraires, socle indispensable à la maîtrise.</p>
+                    </div>
+                </div>
+                <div class="method-item">
+                    <div class="method-number">03</div>
+                    <div class="method-content">
+                        <h3>Pratique Intensive</h3>
+                        <p>Exercices variés et progressifs pour ancrer durablement les acquis.</p>
+                    </div>
+                </div>
+                <div class="method-item">
+                    <div class="method-number">04</div>
+                    <div class="method-content">
+                        <h3>Suivi Rigoureux</h3>
+                        <p>Évaluation continue des progrès et ajustement de la méthode selon les besoins.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Témoignages</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Christelle a transformé ma relation avec la langue française. Sa méthode alliant tradition et modernité m'a permis de découvrir la beauté de notre patrimoine littéraire."</p>
+                    <div class="testimonial-author">
+                        <strong>Marie-Claire D.</strong>
+                        <span>Étudiante en littérature</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Une approche pédagogique exceptionnelle. Grâce à Christelle, j'ai retrouvé confiance en moi et développé un véritable amour pour l'écriture."</p>
+                    <div class="testimonial-author">
+                        <strong>Jean-Philippe L.</strong>
+                        <span>Professionnel en reconversion</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Professeure d'une élégance rare, Christelle maîtrise parfaitement l'art de transmettre la passion de la langue française avec une rigueur bienveillante."</p>
+                    <div class="testimonial-author">
+                        <strong>Amélie R.</strong>
+                        <span>Élève de terminale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation littéraire -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="literary-quote">
+                <blockquote>
+                    <p>"La beauté du geste d'écrire est qu'il unit la pensée et la main dans un même élan vers l'éternité."</p>
+                    <cite>— Marguerite Yourcenar</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Prenons Contact</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Latelier.coh@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+33 (0)1 23 45 67 89</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Paris, France</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lun-Sam: 9h-18h</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Choisissez un service</option>
+                            <option value="cours-particuliers">Cours particuliers</option>
+                            <option value="ateliers-ecriture">Ateliers d'écriture</option>
+                            <option value="fle">Français langue étrangère</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Christelle - Professeur de Français. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

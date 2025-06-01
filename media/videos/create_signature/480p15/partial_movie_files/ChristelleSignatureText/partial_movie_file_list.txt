@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/gregorymittelette/Documents/Christelle/media/videos/create_signature/480p15/partial_movie_files/ChristelleSignatureText/3376761915_3902537928_223132457.mov'
+file 'file:/Users/gregorymittelette/Documents/Christelle/media/videos/create_signature/480p15/partial_movie_files/ChristelleSignatureText/1596116098_1893037901_1130949559.mov'
+file 'file:/Users/gregorymittelette/Documents/Christelle/media/videos/create_signature/480p15/partial_movie_files/ChristelleSignatureText/1596116098_984140237_3072572193.mov'
+file 'file:/Users/gregorymittelette/Documents/Christelle/media/videos/create_signature/480p15/partial_movie_files/ChristelleSignatureText/1596116098_4071516364_201427763.mov'
