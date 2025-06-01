@@ -1292,7 +1292,7 @@ section {
 /* Hero section prestations */
 .prestations-hero {
     height: 60vh;
-    background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&h=1080&fit=crop');
+    background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('moi2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
